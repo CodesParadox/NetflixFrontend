@@ -34,7 +34,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 script {
-                    // Example test command (replace with your actual test commands)
+                    // Example test command replace with your actual test commands
                     sh 'echo "Running tests..."'
                     // e.g., sh './run_tests.sh' for a script or docker run command for a containerized test
                 }
